@@ -2,7 +2,7 @@ import '../styles/navbar.css'
 
 function navbar(){
     return(
-        <div>
+        <div className='navbar-top'>
             <ul className="nav-list">
                 <li className="nav-item">
                 <a href="">Logo</a>
