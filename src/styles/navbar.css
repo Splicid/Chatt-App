@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .nav-list{
     background-color: white;
     box-shadow: 0px 0px 10px grey;
     margin: 0;
     padding: 1rem 0;
-    border-radius: 0.2rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-color: white;
 }
 .nav-item{
     list-style: none;
@@ -18,16 +19,16 @@
     transition: all 200ms ease-in;
 }
 .nav-item a:hover{
-    color: #6aeeb5;
+    color: #0066FF;
 }
 .nav-item:first-child{
     margin-right: auto;
     margin-left: 2rem;
 }
 .btn-primary{
-    font-family: 'Montserrat, sans-serif';
+    font-family: 'Bebas Neue', cursive;
     font-size: 1rem;
-    background: #6aeeb5;
+    background: #0066FF;
     border: none;
     border-radius: 0.2rem;
     padding: .5rem 1rem;
@@ -38,5 +39,5 @@
     background: #29e6a7;
 }
 .navbar-top{
-background-color: rgb(57, 57, 126) ;
+    font-family: 'Bebas Neue', cursive;
 }
