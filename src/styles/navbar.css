@@ -7,11 +7,13 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: white;
+    z-index: 9999;
+    position: relative;
 }
 .nav-item{
     list-style: none;
     margin-right: 2rem;
+    font-size: 2rem;
 }
 .nav-item a{
     text-decoration: none;
@@ -28,10 +30,11 @@
 .btn-primary{
     font-family: 'Bebas Neue', cursive;
     font-size: 1rem;
-    background: #0066FF;
+    background: #a5bee4;
     border: none;
     border-radius: 0.2rem;
     padding: .5rem 1rem;
+    font-size: 2rem;
     cursor: pointer;
     transition: all 200ms ease-in;
 }
@@ -40,4 +43,5 @@
 }
 .navbar-top{
     font-family: 'Bebas Neue', cursive;
+    z-index: 1;
 }
