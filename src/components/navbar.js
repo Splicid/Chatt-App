@@ -3,23 +3,17 @@ import '../styles/navbar.css'
 function navbar(){
     return(
         <div className='navbar-top'>
-            <ul className="nav-list">
-                <li className="nav-item">
-                <a href="">Logo</a>
-                </li>
-                <li className="nav-item">
-                <a href="">About</a>
-                </li>
-                <li className="nav-item">
-                <a href="">Work</a>
-                </li>
-                <li className="nav-item">
-                <a href="">Contact</a>
-                </li>
-                <li className="nav-item">
-                    <button className='btn-primary'> Donate </button>
-                </li>
-            </ul>
+            <nav className='navbar'>
+                <div className='brand-title'> LOGO </div>
+                <div className='navbar-links'>
+                    <ul>
+                        <li><a href='#'> Home </a></li>
+                        <li><a href='#'> About </a></li>
+                        <li><a href='#'> Contact </a></li>
+                    </ul>
+                </div>
+
+            </nav>
         </div>
 
     );
